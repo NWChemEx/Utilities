@@ -88,11 +88,11 @@ protected:
 
     /// Instances of LeafHolderBase will always be created by derived class
     ///@{
-    LeafHolderBase()                      = default;
-    LeafHolderBase(const LeafHolderBase&) = default;
-    LeafHolderBase(LeafHolderBase&&)      = delete;
+    LeafHolderBase()                                 = default;
+    LeafHolderBase(const LeafHolderBase&)            = default;
+    LeafHolderBase(LeafHolderBase&&)                 = delete;
     LeafHolderBase& operator=(const LeafHolderBase&) = delete;
-    LeafHolderBase& operator=(LeafHolderBase&&) = delete;
+    LeafHolderBase& operator=(LeafHolderBase&&)      = delete;
     ///@}
 
     /// Derived class overrides to implement clone. See clone description.
