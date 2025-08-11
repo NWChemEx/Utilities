@@ -35,12 +35,12 @@ following will suffice to build:
    #May need to run as an admin depending on where you are installing Utilities to
    make install
 
-Note that the configure will appear to hang when it gets to Catch2. 
+Note that the configure will appear to hang when it gets to Catch2.
 This is because it is building `Catch2 <https://github.com/catchorg/Catch2>`_
-testing framework. Building of Catch2 can be 
+testing framework. Building of Catch2 can be
 avoided by disabling tests (*i.e.*, passing ``-DBUILD_TESTS=OFF`` to the first
 invocation of ``cmake``) or by providing CMake with an already built version of
-Catch2 by passing ``-DCatch2_ROOT=/path/to/catch2`` to the first invocation of 
+Catch2 by passing ``-DCatch2_ROOT=/path/to/catch2`` to the first invocation of
 ``cmake``.
 
 For finer-grained control over the build we direct the reader to the more
@@ -62,4 +62,3 @@ installed with ``pip``):
 You can build the documentation with ``make html`` within ``docs`` directory.
 You can view the documentation by opening `docs/build/html/index.html` on your
 browser.
-
