@@ -36,4 +36,3 @@ following Python packages (all available in `pip`):
 - exhale (The thing that turns Doxygen output into ReST)
 
 You also will need Doxygen.
-

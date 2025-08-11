@@ -23,5 +23,6 @@ header:
     - LICENSE
     - docs/requirements.txt
     - version.txt
+    - build/
 
   comment: never
