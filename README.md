@@ -14,10 +14,6 @@
   ~ limitations under the License.
 -->
 
-[![Actions](https://github.com/NWChemEx/Utilities/workflows/C_C++_CI/badge.svg)](https://github.com/NWChemEx/Utilities)
-
-[![Codecov](https://codecov.io/github/NWChemEx/Utilities/branch/master/graphs/sunburst.svg?token=gdemefzIU7)](https://codecov.io/github/NWChemEx/Utilities/branch/master)
-
 Utilities Repository
 ======================
 
@@ -45,24 +41,26 @@ sub libraries:
 Building Utilities
 --------------------
 
-Utilities is built using [CPP](https://github.com/CMakePackagingProject/CMakePackagingProject.git),
-hence the first step is to build and install CPP if you have not done so
-already. Then building Utilities can be accomplished by:
+Utilities is built using [CMaize](https://github.com/CMakePP/CMaize). Building
+Utilities can be accomplished by:
 
 ```bash
 git clone https://github.com/NWChemEx/Utilities.git
 cd Utilities
-cmake -H. -Bbuild -DCMAKE_PREFIX_PATH=<where/you/installed/CPP> \
-                  -DCMAKE_INSTALL_PREFIX=<where/you/want/to/install/Utilities>
+cmake -H. -Bbuild -DCMAKE_INSTALL_PREFIX=<where/you/want/to/install/Utilities> \
+                  -DCMAKE_TOOLCHAIN_FILE=<path/to/toolchain.cmake> # (Optional)
 cd build
 cmake --build .
 #May need to run as an admin depending on where you are installing
 cmake --build . --target install
 ```
 
-Note that the configure will appear to hang when it gets to Catch2.
-This is because it is building Catch2. Building of Catch2 can be
-avoided by disabling tests (*i.e.*, passing `-DBUILD_TESTS=OFF` to the first
-invocation of `cmake`) or by providing CMake with an already built version of
-Catch2 by passing `-DCatch2_ROOT=/path/to/catch2` to the first invocation of
-`cmake`.
+Additional CMake parameters can be passed on the command line or in a toolchain
+file, as represented in the above example. The unit tests for Utilities can be
+built by passing `-DBUILD_TESTING=ON` to the first invocation of CMake, or by
+adding `set(BUILD_TESTING ON)` in the toolchain file. Utilities uses the
+[Catch2](https://github.com/catchorg/Catch2) framework for testing, and will
+build it if not already present. If you wish to use an existing installation of
+Catch2 and it is not being located by CMake configuration, setting `Catch2_ROOT`
+to the location of the installation or adding that path to the
+`CMAKE_PREFIX_PATH` should resolve the issue.
