@@ -153,7 +153,7 @@ public:
      *  @return true if the two iterators are equal and false otherwise.
      *  @throws None. No throw guarantee
      */
-    bool operator==(const ParentType& rhs) const noexcept;
+    bool operator==(const InputIteratorBase& rhs) const noexcept;
 
     /** @brief Determines if two iterators point to different elements.
      *
@@ -166,7 +166,7 @@ public:
      *  @return false if the two iterators are equal and true otherwise.
      *  @throws None. No throw guarantee
      */
-    bool operator!=(const ParentType& rhs) const noexcept;
+    bool operator!=(const InputIteratorBase& rhs) const noexcept;
 
 protected:
     /// Downcasts this to a read-/write-able instance of the derived class
@@ -187,13 +187,13 @@ ParentType InputIteratorBase<ParentType>::operator++(int) {
 
 template<typename ParentType>
 bool InputIteratorBase<ParentType>::operator==(
-  const ParentType& rhs) const noexcept {
-    return downcast_().are_equal(rhs);
+  const InputIteratorBase& rhs) const noexcept {
+    return downcast_().are_equal(rhs.downcast_());
 }
 
 template<typename ParentType>
 bool InputIteratorBase<ParentType>::operator!=(
-  const ParentType& rhs) const noexcept {
+  const InputIteratorBase& rhs) const noexcept {
     return !((*this) == rhs);
 }
 

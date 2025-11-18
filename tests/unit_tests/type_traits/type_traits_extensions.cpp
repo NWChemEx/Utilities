@@ -23,7 +23,7 @@ using namespace utilities;
 struct Struct1 {
     void begin();
     void swap(Struct1&);
-    bool operator!=(const Struct1&);
+    bool operator!=(const Struct1&) const;
     int operator*();
     int operator++(int);
     int operator[](int);
@@ -34,7 +34,7 @@ struct Struct1 {
 };
 struct Struct2 {
     using value_type = int;
-    bool operator==(const Struct2&);
+    bool operator==(const Struct2&) const;
     int operator++();
     Struct2* operator->();
     int operator--();
