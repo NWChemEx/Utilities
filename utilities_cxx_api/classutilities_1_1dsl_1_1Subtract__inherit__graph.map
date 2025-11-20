@@ -1,6 +1,9 @@
 <map id="utilities::dsl::Subtract&lt; LHSType, RHSType &gt;" name="utilities::dsl::Subtract&lt; LHSType, RHSType &gt;">
-<area shape="rect" id="node1" title="Represents the subtraction of two terms." alt="" coords="33,288,205,329"/>
-<area shape="rect" id="node2" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="5,184,232,240"/>
-<area shape="rect" id="node3" href="$classutilities_1_1dsl_1_1NAryOp.html" title="Code factorization for n&#45;ary operations." alt="" coords="33,95,204,136"/>
-<area shape="rect" id="node4" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="49,5,188,47"/>
+<area shape="rect" id="Node000001" title="Represents the subtraction of two terms." alt="" coords="33,284,205,324"/>
+<area shape="rect" id="Node000002" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="5,181,232,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,250,121,284,116,284,116,250"/>
+<area shape="rect" id="Node000003" href="$classutilities_1_1dsl_1_1NAryOp.html" title="Code factorization for n&#45;ary operations." alt="" coords="33,93,204,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,147,121,181,116,181,116,147"/>
+<area shape="rect" id="Node000004" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="49,5,188,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="121,59,121,93,116,93,116,59"/>
 </map>

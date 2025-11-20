@@ -1,6 +1,9 @@
 <map id="utilities::dsl::Add&lt; LHSType, RHSType &gt;" name="utilities::dsl::Add&lt; LHSType, RHSType &gt;">
-<area shape="rect" id="node1" title="Represents the addition of two terms." alt="" coords="18,288,190,329"/>
-<area shape="rect" id="node2" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="5,184,203,240"/>
-<area shape="rect" id="node3" href="$classutilities_1_1dsl_1_1NAryOp.html" title="Code factorization for n&#45;ary operations." alt="" coords="19,95,189,136"/>
-<area shape="rect" id="node4" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="35,5,173,47"/>
+<area shape="rect" id="Node000001" title="Represents the addition of two terms." alt="" coords="18,284,190,324"/>
+<area shape="rect" id="Node000002" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="5,181,203,236"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,250,107,284,101,284,101,250"/>
+<area shape="rect" id="Node000003" href="$classutilities_1_1dsl_1_1NAryOp.html" title="Code factorization for n&#45;ary operations." alt="" coords="19,93,189,133"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,147,107,181,101,181,101,147"/>
+<area shape="rect" id="Node000004" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="35,5,173,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="107,59,107,93,101,93,101,59"/>
 </map>

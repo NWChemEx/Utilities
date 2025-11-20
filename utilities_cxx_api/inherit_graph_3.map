@@ -1,3 +1,23 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structutilities_1_1detail___1_1CaseInsensitiveLess__.html" title="Implements a case insensitive less&#45;than operation for two std::strings." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,287,124,312"/>
+<area shape="rect" id="Node000001" href="$structutilities_1_1dsl_1_1IsTerm.html" title=" " alt="" coords="184,5,371,31"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="66,272,76,223,94,160,125,96,145,67,170,41,190,29,193,33,174,45,150,70,129,99,99,162,81,224,72,273"/>
+<area shape="rect" id="Node000002" href="$structutilities_1_1has__arrow.html" title="Checks if a type has the arrow operator." alt="" coords="204,55,351,95"/>
+<area shape="poly" id="edge9_Node000000_Node000002" title=" " alt="" coords="71,273,84,235,105,190,133,145,170,105,202,87,205,92,174,109,137,148,109,193,89,237,76,274"/>
+<area shape="rect" id="Node000003" href="$structutilities_1_1has__dereference.html" title="Checks if a type is dereference&#45;able via the star operator." alt="" coords="184,119,371,159"/>
+<area shape="poly" id="edge10_Node000000_Node000003" title=" " alt="" coords="78,273,115,221,141,193,171,169,193,157,195,162,173,174,145,197,120,224,82,276"/>
+<area shape="rect" id="Node000004" href="$structutilities_1_1has__postfix__decrement.html" title="Checks if a type implements the postfix decrement operator." alt="" coords="172,183,383,223"/>
+<area shape="poly" id="edge11_Node000000_Node000004" title=" " alt="" coords="94,277,130,254,171,233,201,221,203,226,173,238,132,259,97,281"/>
+<area shape="rect" id="Node000005" href="$structutilities_1_1has__postfix__increment.html" title="Checks if a type implements the postfix increment operator." alt="" coords="174,247,381,287"/>
+<area shape="poly" id="edge12_Node000000_Node000005" title=" " alt="" coords="137,286,174,280,174,286,138,291"/>
+<area shape="rect" id="Node000006" href="$structutilities_1_1has__prefix__decrement.html" title="Checks if a type implements the prefix decrement operator." alt="" coords="172,311,383,351"/>
+<area shape="poly" id="edge13_Node000000_Node000006" title=" " alt="" coords="138,308,172,313,172,318,137,313"/>
+<area shape="rect" id="Node000007" href="$structutilities_1_1has__prefix__increment.html" title="Checks if a type implements the prefix increment operator." alt="" coords="174,375,381,415"/>
+<area shape="poly" id="edge14_Node000000_Node000007" title=" " alt="" coords="97,317,132,340,173,361,203,373,201,378,171,366,130,344,94,322"/>
+<area shape="rect" id="Node000008" href="$structutilities_1_1is__indexable.html" title="Checks if a type implements the index operator." alt="" coords="197,439,358,479"/>
+<area shape="poly" id="edge15_Node000000_Node000008" title=" " alt="" coords="82,322,120,375,145,402,173,425,198,438,195,443,171,430,141,406,115,378,78,325"/>
+<area shape="rect" id="Node000009" href="$structutilities_1_1type__traits_1_1IsPrintable.html" title="Used to determine if an object can be forwarded to an std::ostream." alt="" coords="172,503,383,543"/>
+<area shape="poly" id="edge16_Node000000_Node000009" title=" " alt="" coords="76,324,89,361,109,406,137,451,174,489,192,501,189,505,170,493,133,454,105,408,84,363,71,326"/>
+<area shape="rect" id="Node000010" href="$structutilities_1_1type__traits_1_1tuple_1_1IsTuple.html" title="Type trait for when T is not an std::tuple or std::pair has value=false." alt="" coords="200,567,355,607"/>
+<area shape="poly" id="edge17_Node000000_Node000010" title=" " alt="" coords="72,325,82,374,100,435,130,499,150,528,174,553,201,570,198,575,170,557,146,531,126,501,95,437,77,375,67,326"/>
 </map>

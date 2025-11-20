@@ -1,12 +1,21 @@
 <map id="utilities::dsl::NAryOp&lt; DerivedType, Args &gt;" name="utilities::dsl::NAryOp&lt; DerivedType, Args &gt;">
-<area shape="rect" id="node1" title="Code factorization for n&#45;ary operations." alt="" coords="192,133,363,174"/>
-<area shape="rect" id="node3" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="411,5,637,61"/>
-<area shape="rect" id="node5" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="425,85,623,141"/>
-<area shape="rect" id="node7" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="411,165,637,221"/>
-<area shape="rect" id="node9" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="417,245,631,301"/>
-<area shape="rect" id="node2" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="5,133,144,174"/>
-<area shape="rect" id="node4" href="$classutilities_1_1dsl_1_1Subtract.html" title="Represents the subtraction of two terms." alt="" coords="685,13,857,54"/>
-<area shape="rect" id="node6" href="$classutilities_1_1dsl_1_1Add.html" title="Represents the addition of two terms." alt="" coords="685,93,857,134"/>
-<area shape="rect" id="node8" href="$classutilities_1_1dsl_1_1Multiply.html" title="Represents the multiplication of two terms." alt="" coords="685,173,857,214"/>
-<area shape="rect" id="node10" href="$classutilities_1_1dsl_1_1Divide.html" title="Represents the division of two terms." alt="" coords="685,253,857,294"/>
+<area shape="rect" id="Node000001" title="Code factorization for n&#45;ary operations." alt="" coords="192,131,363,171"/>
+<area shape="rect" id="Node000003" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="425,5,623,60"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="318,121,361,94,410,69,436,58,438,63,412,74,364,99,321,126"/>
+<area shape="rect" id="Node000005" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="417,84,631,139"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="376,133,416,126,417,131,377,138"/>
+<area shape="rect" id="Node000007" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="411,163,637,217"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="377,164,412,170,411,175,376,169"/>
+<area shape="rect" id="Node000009" href="$classutilities_1_1dsl_1_1BinaryOp.html" title=" " alt="" coords="411,241,637,296"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="321,177,364,203,412,228,438,239,436,244,410,232,362,207,319,181"/>
+<area shape="rect" id="Node000002" href="$classutilities_1_1dsl_1_1Term.html" title="Base class for all elements of the DSL." alt="" coords="5,131,144,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,149,192,149,192,154,158,154"/>
+<area shape="rect" id="Node000004" href="$classutilities_1_1dsl_1_1Add.html" title="Represents the addition of two terms." alt="" coords="685,13,857,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="636,30,685,30,685,35,636,35"/>
+<area shape="rect" id="Node000006" href="$classutilities_1_1dsl_1_1Divide.html" title="Represents the division of two terms." alt="" coords="685,91,857,131"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="645,109,685,109,685,114,645,114"/>
+<area shape="rect" id="Node000008" href="$classutilities_1_1dsl_1_1Multiply.html" title="Represents the multiplication of two terms." alt="" coords="685,170,857,210"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="650,187,685,187,685,193,650,193"/>
+<area shape="rect" id="Node000010" href="$classutilities_1_1dsl_1_1Subtract.html" title="Represents the subtraction of two terms." alt="" coords="685,249,857,289"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="651,266,685,266,685,271,651,271"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="utilities::dsl::detail_::LeafHolderBase" name="utilities::dsl::detail_::LeafHolderBase">
-<area shape="rect" id="node1" title="Defines API for interacting with type&#45;erased leaf objects." alt="" coords="5,50,148,91"/>
-<area shape="rect" id="node2" href="$classutilities_1_1dsl_1_1detail___1_1LeafHolder.html" title=" " alt="" coords="196,5,397,61"/>
-<area shape="rect" id="node4" href="$classutilities_1_1dsl_1_1detail___1_1LeafHolder.html" title="API for interacting with the leaf when its type is known." alt="" coords="223,86,370,127"/>
-<area shape="rect" id="node3" href="$classutilities_1_1dsl_1_1detail___1_1QualifiedLeafHolder.html" title="Leaf holder accounting for aliasing vs. copying." alt="" coords="445,13,649,54"/>
+<area shape="rect" id="Node000001" title="Defines API for interacting with type&#45;erased leaf objects." alt="" coords="5,49,148,89"/>
+<area shape="rect" id="Node000002" href="$classutilities_1_1dsl_1_1detail___1_1LeafHolder.html" title=" " alt="" coords="196,5,397,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,52,195,47,196,52,162,57"/>
+<area shape="rect" id="Node000004" href="$classutilities_1_1dsl_1_1detail___1_1LeafHolder.html" title="API for interacting with the leaf when its type is known." alt="" coords="223,85,370,125"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,80,224,90,223,95,162,85"/>
+<area shape="rect" id="Node000003" href="$classutilities_1_1dsl_1_1detail___1_1QualifiedLeafHolder.html" title="Leaf holder accounting for aliasing vs. copying." alt="" coords="445,13,649,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,30,445,30,445,35,411,35"/>
 </map>

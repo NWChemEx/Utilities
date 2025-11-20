@@ -1,11 +1,21 @@
 <map id="include/utilities/mathematician/integer_utils.hpp" name="include/utilities/mathematician/integer_utils.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="79,5,305,47"/>
-<area shape="rect" id="node2" href="$offset__iterator_8hpp_source.html" title=" " alt="" coords="101,95,283,136"/>
-<area shape="rect" id="node3" href="$indexable__container__base_8hpp_source.html" title=" " alt="" coords="80,184,304,225"/>
-<area shape="rect" id="node4" href="$range_8hpp_source.html" title=" " alt="" coords="33,273,181,315"/>
-<area shape="rect" id="node9" href="$zip_8hpp_source.html" title=" " alt="" coords="205,273,353,315"/>
-<area shape="rect" id="node5" href="$enumerate_8hpp_source.html" title=" " alt="" coords="50,363,214,404"/>
-<area shape="rect" id="node6" href="$iter__tools_8hpp.html" title=" " alt="" coords="205,452,353,493"/>
-<area shape="rect" id="node7" href="$string__tools_8hpp_source.html" title=" " alt="" coords="9,452,180,493"/>
-<area shape="rect" id="node8" href="$word__wrap__stream_8hpp_source.html" title=" " alt="" coords="5,541,184,583"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="79,5,305,45"/>
+<area shape="rect" id="Node000002" href="$offset__iterator_8hpp_source.html" title=" " alt="" coords="101,93,283,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,59,195,93,189,93,189,59"/>
+<area shape="rect" id="Node000003" href="$indexable__container__base_8hpp_source.html" title=" " alt="" coords="80,181,304,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,147,195,181,189,181,189,147"/>
+<area shape="rect" id="Node000004" href="$range_8hpp_source.html" title=" " alt="" coords="33,269,181,309"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="165,233,127,271,124,267,162,229"/>
+<area shape="rect" id="Node000009" href="$zip_8hpp_source.html" title=" " alt="" coords="205,269,353,309"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="223,229,261,267,258,271,219,233"/>
+<area shape="rect" id="Node000005" href="$enumerate_8hpp_source.html" title=" " alt="" coords="50,357,214,397"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="119,322,129,356,124,358,114,323"/>
+<area shape="rect" id="Node000006" href="$iter__tools_8hpp.html" title=" " alt="" coords="205,445,353,485"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="178,402,248,443,245,448,175,407"/>
+<area shape="rect" id="Node000007" href="$string__tools_8hpp_source.html" title=" " alt="" coords="9,445,180,485"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="121,411,105,446,100,444,116,409"/>
+<area shape="rect" id="Node000008" href="$word__wrap__stream_8hpp_source.html" title=" " alt="" coords="5,533,184,573"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="97,499,97,533,92,533,92,499"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="236,319,165,360,163,355,233,314"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="281,323,281,445,276,445,276,323"/>
 </map>

@@ -1,3 +1,47 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structutilities_1_1detail___1_1variant__to__tuple.html" title="Primary template for converting a std::variant to a std::tuple." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1098,117,1123"/>
+<area shape="rect" id="Node000001" href="$structutilities_1_1Conjunction.html" title=" " alt="" coords="195,5,467,75"/>
+<area shape="poly" id="edge24_Node000000_Node000001" title=" " alt="" coords="61,1084,70,875,89,558,103,396,120,254,140,145,151,108,163,85,193,61,196,65,167,88,156,110,145,147,125,255,108,397,94,558,75,875,66,1084"/>
+<area shape="rect" id="Node000003" href="$structutilities_1_1Conjunction.html" title=" " alt="" coords="165,99,496,330"/>
+<area shape="poly" id="edge26_Node000000_Node000003" title=" " alt="" coords="61,1084,68,935,85,716,98,602,116,495,137,405,149,369,163,340,170,329,175,332,168,343,154,371,142,407,121,496,104,602,90,717,73,936,66,1084"/>
+<area shape="rect" id="Node000005" href="$structutilities_1_1Conjunction.html" title=" " alt="" coords="200,354,461,438"/>
+<area shape="poly" id="edge28_Node000000_Node000005" title=" " alt="" coords="61,1084,66,952,81,762,94,664,112,574,135,499,148,470,163,448,180,432,198,420,201,425,183,436,167,451,153,473,140,501,117,575,100,664,87,762,71,952,66,1084"/>
+<area shape="rect" id="Node000007" href="$structutilities_1_1Conjunction.html" title=" " alt="" coords="211,462,451,634"/>
+<area shape="poly" id="edge30_Node000000_Node000007" title=" " alt="" coords="63,1084,76,989,97,859,127,731,144,680,163,644,184,620,209,600,212,604,188,624,168,647,149,682,132,733,103,860,81,989,68,1085"/>
+<area shape="rect" id="Node000009" href="$structutilities_1_1Conjunction.html" title=" " alt="" coords="205,658,456,830"/>
+<area shape="poly" id="edge32_Node000000_Node000009" title=" " alt="" coords="64,1084,75,1035,94,971,123,903,141,871,163,841,203,804,207,808,167,844,146,874,127,906,99,973,80,1036,69,1085"/>
+<area shape="rect" id="Node000010" href="$structutilities_1_1Conjunction.html" title="Returns true if all the types are true too." alt="" coords="253,855,409,895"/>
+<area shape="poly" id="edge33_Node000000_Node000010" title=" " alt="" coords="65,1084,77,1044,96,995,124,946,143,924,164,905,184,892,206,883,252,873,253,878,208,888,186,897,167,909,146,927,129,949,101,997,82,1045,71,1085"/>
+<area shape="rect" id="Node000012" href="$structutilities_1_1dsl_1_1IsTerm_3_01Term_3_01T_01_4_01_4.html" title=" " alt="" coords="256,919,405,959"/>
+<area shape="poly" id="edge35_Node000000_Node000012" title=" " alt="" coords="72,1084,107,1025,133,994,164,968,208,949,255,939,256,944,210,954,167,973,136,998,111,1028,76,1087"/>
+<area shape="rect" id="Node000013" href="$structutilities_1_1has__arrow_3_01T_00_01typename_01VoidType_3_01decltype_07std_1_1declval_3_01Tc2e084b9cef720d782218e5746e3baf5.html" title=" " alt="" coords="219,983,442,1052"/>
+<area shape="poly" id="edge36_Node000000_Node000013" title=" " alt="" coords="99,1089,164,1062,218,1044,220,1049,166,1066,101,1094"/>
+<area shape="rect" id="Node000014" href="$structutilities_1_1has__dereference_3_01T_00_01typename_01VoidType_3_01decltype_07_5std_1_1declvf530c08b2e833f04bbccaec8d005ee1a.html" title=" " alt="" coords="235,1076,427,1145"/>
+<area shape="poly" id="edge37_Node000000_Node000014" title=" " alt="" coords="131,1108,234,1108,234,1113,131,1113"/>
+<area shape="rect" id="Node000015" href="$structutilities_1_1has__postfix__decrement_3_01T_00_01typename_01VoidType_3_01decltype_07std_1_189de70649f76f38765574e30217d956d.html" title=" " alt="" coords="227,1169,434,1239"/>
+<area shape="poly" id="edge38_Node000000_Node000015" title=" " alt="" coords="101,1127,166,1155,228,1175,226,1180,164,1160,99,1132"/>
+<area shape="rect" id="Node000016" href="$structutilities_1_1has__postfix__increment_3_01T_00_01typename_01VoidType_3_01decltype_07std_1_10d94e0a57d4a324f9146bbcb393f1467.html" title=" " alt="" coords="223,1263,438,1332"/>
+<area shape="poly" id="edge39_Node000000_Node000016" title=" " alt="" coords="77,1134,112,1192,137,1223,167,1248,194,1264,224,1276,222,1281,192,1269,164,1253,133,1226,108,1195,72,1137"/>
+<area shape="rect" id="Node000017" href="$structutilities_1_1has__prefix__decrement_3_01T_00_01typename_01VoidType_3_01decltype_07--std_1_6eca0d7d721834388c670a1a20244a9f.html" title=" " alt="" coords="233,1356,429,1425"/>
+<area shape="poly" id="edge40_Node000000_Node000017" title=" " alt="" coords="69,1137,80,1181,98,1237,127,1294,145,1319,167,1342,198,1362,233,1376,232,1381,196,1367,164,1346,141,1323,122,1296,93,1239,74,1183,64,1138"/>
+<area shape="rect" id="Node000018" href="$structutilities_1_1has__prefix__increment_3_01T_00_01typename_01VoidType_3_01decltype_07_09_09stf2cc41068d5dfe0687b63a3abe932aa2.html" title=" " alt="" coords="229,1449,432,1519"/>
+<area shape="poly" id="edge41_Node000000_Node000018" title=" " alt="" coords="66,1137,70,1198,85,1278,98,1321,116,1363,139,1401,167,1435,196,1456,230,1470,228,1475,194,1461,164,1439,134,1404,111,1365,93,1323,80,1280,65,1199,60,1137"/>
+<area shape="rect" id="Node000019" href="$structutilities_1_1is__indexable_3_01T_00_01typename_01VoidType_3_01decltype_07std_1_1declval_3_e36cb9467602774b885ccc2b25a87a84.html" title=" " alt="" coords="240,1543,421,1612"/>
+<area shape="poly" id="edge42_Node000000_Node000019" title=" " alt="" coords="68,1137,80,1225,101,1343,130,1456,148,1499,167,1529,201,1553,241,1567,239,1572,199,1558,163,1533,143,1502,125,1457,96,1344,75,1226,63,1137"/>
+<area shape="rect" id="Node000020" href="$structutilities_1_1type__traits_1_1IsPrintable_3_01T_00_01std_1_1void__t_3_01detail___1_1result_01a759b69b8b85aeaa0e46baf82b3767.html" title="Specializes IsPrintable for printable types." alt="" coords="243,1636,418,1705"/>
+<area shape="poly" id="edge43_Node000000_Node000020" title=" " alt="" coords="67,1137,76,1243,95,1388,108,1462,125,1530,144,1585,167,1622,184,1636,202,1647,244,1662,242,1667,200,1652,180,1641,163,1626,140,1587,120,1531,103,1464,90,1389,71,1243,62,1137"/>
+<area shape="rect" id="Node000021" href="$structutilities_1_1type__traits_1_1tuple_1_1IsTuple_3_01std_1_1pair_3_01T_00_01U_01_4_01_4.html" title="Type trait for when T is an std::pair, has value = true." alt="" coords="255,1730,406,1785"/>
+<area shape="poly" id="edge44_Node000000_Node000021" title=" " alt="" coords="66,1137,72,1260,88,1434,101,1523,119,1604,141,1671,153,1696,167,1716,186,1731,208,1742,256,1754,254,1759,206,1747,183,1735,163,1719,149,1699,136,1673,113,1606,96,1524,83,1435,67,1260,61,1137"/>
+<area shape="rect" id="Node000022" href="$structutilities_1_1type__traits_1_1tuple_1_1IsTuple_3_01std_1_1tuple_3_01Args_8_8_8_01_4_01_4.html" title="Type trait for when T is an std::tuple, has value = true." alt="" coords="255,1809,406,1863"/>
+<area shape="poly" id="edge45_Node000000_Node000022" title=" " alt="" coords="65,1137,69,1275,83,1473,96,1575,114,1668,137,1744,152,1774,167,1796,186,1811,208,1822,256,1834,255,1839,206,1827,183,1815,163,1799,147,1776,132,1746,109,1669,91,1576,78,1473,64,1275,60,1137"/>
+<area shape="rect" id="Node000002" href="$structutilities_1_1is__bidirectional__iterator.html" title="This struct will contain a value true if the type satisfies the C++ concept of &quot;BidirectionalIterator..." alt="" coords="553,20,731,60"/>
+<area shape="poly" id="edge25_Node000001_Node000002" title=" " alt="" coords="481,37,553,37,553,43,481,43"/>
+<area shape="rect" id="Node000004" href="$structutilities_1_1is__container.html" title="This struct will contain a value true if the type satisfies the C++ concept of &quot;Container&quot;." alt="" coords="544,202,740,227"/>
+<area shape="poly" id="edge27_Node000003_Node000004" title=" " alt="" coords="510,212,544,212,544,217,510,217"/>
+<area shape="rect" id="Node000006" href="$structutilities_1_1is__input__iterator.html" title="This struct will contain a value true if the type satisfies the C++ concept of &quot;InputIterator&quot;." alt="" coords="577,376,707,416"/>
+<area shape="poly" id="edge29_Node000005_Node000006" title=" " alt="" coords="475,393,576,393,576,399,475,399"/>
+<area shape="rect" id="Node000008" href="$structutilities_1_1is__iterator.html" title="This struct will contain a value true if the type satisfies the C++ concept of &quot;Iterator&quot;." alt="" coords="551,535,733,561"/>
+<area shape="poly" id="edge31_Node000007_Node000008" title=" " alt="" coords="465,545,551,545,551,551,465,551"/>
+<area shape="rect" id="Node000011" href="$structutilities_1_1is__random__access__iterator.html" title="This struct will contain a value true if the type satisfies the C++ concept of &quot;RandomAccessIterator&quot;..." alt="" coords="565,847,719,902"/>
+<area shape="poly" id="edge34_Node000010_Node000011" title=" " alt="" coords="422,872,564,872,564,877,422,877"/>
 </map>

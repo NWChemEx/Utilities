@@ -1,3 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structutilities_1_1detail___1_1CaseInsensitiveLess___1_1LetterComparer__.html" title="Letter by letter case&#45;insensitive functor." alt="" coords="5,5,168,61"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,151,168,176"/>
+<area shape="rect" id="Node000001" href="$structutilities_1_1type__traits_1_1parameter__pack__count__derived__type_3_01BaseType2Look4_01_4.html" title=" " alt="" coords="216,5,469,60"/>
+<area shape="poly" id="edge18_Node000000_Node000001" title=" " alt="" coords="111,140,158,105,215,70,244,58,246,62,217,75,161,109,115,144"/>
+<area shape="rect" id="Node000002" href="$structutilities_1_1type__traits_1_1parameter__pack__count__derived__type_3_01BaseType2Look4_00_01Type0_00_01Tail_8_8_8_01_4.html" title=" " alt="" coords="221,85,464,154"/>
+<area shape="poly" id="edge19_Node000000_Node000002" title=" " alt="" coords="174,146,221,138,222,143,175,151"/>
+<area shape="rect" id="Node000003" href="$structutilities_1_1type__traits_1_1parameter__pack__count__type_3_01Type2Look4_01_4.html" title=" " alt="" coords="253,179,432,233"/>
+<area shape="poly" id="edge20_Node000000_Node000003" title=" " alt="" coords="177,176,253,188,252,194,176,181"/>
+<area shape="rect" id="Node000004" href="$structutilities_1_1type__traits_1_1parameter__pack__count__type_3_01Type2Look4_00_01Type2Look4_00_01OtherTypes_8_8_8_01_4.html" title=" " alt="" coords="223,258,462,327"/>
+<area shape="poly" id="edge21_Node000000_Node000004" title=" " alt="" coords="118,182,164,212,217,242,246,255,244,260,215,247,161,216,115,186"/>
 </map>
