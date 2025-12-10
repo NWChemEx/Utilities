@@ -17,6 +17,8 @@
 Utilities Repository
 ======================
 
+[![Nightly Workflow](https://github.com/NWChemEx/Utilities/actions/workflows/nightly.yaml/badge.svg)](https://github.com/NWChemEx/Utilities/actions/workflows/nightly.yaml)
+
 [Documentation](https://nwchemex.github.io/Utilities/)
 
 The C++ standard library as well as the STL are great for providing many of the
