@@ -44,9 +44,6 @@ if(BUILD_TESTING)
         "unit_test_${PROJECT_NAME}"
         "tests/cxx/unit_tests"
         ${PROJECT_NAME}
-    )
-    target_include_directories(
-        "unit_test_${PROJECT_NAME}" PRIVATE
-        "${CMAKE_CURRENT_LIST_DIR}/cxx/src"
+        PRIVATE_INCLUDES cxx/src
     )
 endif()
