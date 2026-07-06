@@ -24,10 +24,7 @@ nwx_set_version(utilities_version "${CMAKE_CURRENT_LIST_DIR}")
 project(utilities VERSION "${utilities_version}" LANGUAGES CXX)
 
 include(disable_in_source_builds)
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_SCAN_FOR_MODULES OFF)
-
-option(BUILD_TESTING "Whether to build the unit tests" OFF)
+include(set_default_nwx_options)
 
 # Define the documentation target
 include(nwx_cxx_api_docs)
@@ -38,12 +35,10 @@ include(nwx_library)
 nwx_library(${PROJECT_NAME} "cxx/include" "cxx/src")
 
 # Register the C++ tests
-if(BUILD_TESTING)
-    include(catch2_tests_from_dir)
-    catch2_tests_from_dir(
-        "unit_test_${PROJECT_NAME}"
-        "tests/cxx/unit_tests"
-        ${PROJECT_NAME}
-        PRIVATE_INCLUDES cxx/src
-    )
-endif()
+include(catch2_tests_from_dir)
+catch2_tests_from_dir(
+    "unit_test_${PROJECT_NAME}"
+    "tests/cxx/unit_tests"
+    ${PROJECT_NAME}
+    PRIVATE_INCLUDES cxx/src
+)
