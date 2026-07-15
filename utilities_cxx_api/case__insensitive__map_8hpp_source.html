@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>utilities: include/utilities/containers/case_insensitive_map.hpp Source File</title>
+<title>utilities: cxx/include/utilities/containers/case_insensitive_map.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_52b4106b6168f13dcdf82e33b1d195ee.html">utilities</a></li><li class="navelem"><a class="el" href="dir_9d32fea2bb364fbfe63b81204448e0a3.html">containers</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_8fb20675bc3e1682e6cd2ca1ed0f7deb.html">cxx</a></li><li class="navelem"><a class="el" href="dir_00901edb2c5fc9ff9a99effabe26e19f.html">include</a></li><li class="navelem"><a class="el" href="dir_11b6e70bb5482097d9b848e89e7aa953.html">utilities</a></li><li class="navelem"><a class="el" href="dir_29c727de6e3c1d5a9c64446963c9f076.html">containers</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -103,7 +103,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceutilities.html">utilities</a> {</div>
+<div class="foldopen" id="foldopen00023" data-start="{" data-end="}">
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="namespaceutilities.html">   23</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceutilities.html">utilities</a> {</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">namespace </span>detail_ {</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="foldopen" id="foldopen00033" data-start="{" data-end="};">
@@ -135,7 +136,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  std::map&lt;std::string, T, detail_::CaseInsensitiveLess_&gt;;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>} <span class="comment">// namespace utilities</span></div>
-<div class="ttc" id="anamespaceutilities_html"><div class="ttname"><a href="namespaceutilities.html">utilities</a></div><div class="ttdoc">Namespace for all functionality in the Utilities library.</div><div class="ttdef"><b>Definition</b> demangler.cpp:25</div></div>
+</div>
+<div class="ttc" id="anamespaceutilities_html"><div class="ttname"><a href="namespaceutilities.html">utilities</a></div><div class="ttdoc">Namespace for all functionality in the Utilities library.</div><div class="ttdef"><b>Definition</b> case_insensitive_map.hpp:23</div></div>
 <div class="ttc" id="anamespaceutilities_html_a46b8e7ca5123e28b92af40ff0e5bf2b8"><div class="ttname"><a href="namespaceutilities.html#a46b8e7ca5123e28b92af40ff0e5bf2b8">utilities::CaseInsensitiveMap</a></div><div class="ttdeci">std::map&lt; std::string, T, detail_::CaseInsensitiveLess_ &gt; CaseInsensitiveMap</div><div class="ttdoc">A case-insensitive std::map (the keys are assumed to be std::string otherwise it doesn't make a whole...</div><div class="ttdef"><b>Definition</b> case_insensitive_map.hpp:82</div></div>
 <div class="ttc" id="astructutilities_1_1detail___1_1CaseInsensitiveLess___1_1LetterComparer___html"><div class="ttname"><a href="structutilities_1_1detail___1_1CaseInsensitiveLess___1_1LetterComparer__.html">utilities::detail_::CaseInsensitiveLess_::LetterComparer_</a></div><div class="ttdoc">Letter by letter case-insensitive functor.</div><div class="ttdef"><b>Definition</b> case_insensitive_map.hpp:35</div></div>
 <div class="ttc" id="astructutilities_1_1detail___1_1CaseInsensitiveLess___1_1LetterComparer___html_a3579bccb1aa95bebcdcf0e8225987a11"><div class="ttname"><a href="structutilities_1_1detail___1_1CaseInsensitiveLess___1_1LetterComparer__.html#a3579bccb1aa95bebcdcf0e8225987a11">utilities::detail_::CaseInsensitiveLess_::LetterComparer_::operator()</a></div><div class="ttdeci">bool operator()(const unsigned char &amp;c1, const unsigned char &amp;c2) const</div><div class="ttdoc">Compares two characters in a case-insensitive way.</div><div class="ttdef"><b>Definition</b> case_insensitive_map.hpp:45</div></div>
