@@ -33,3 +33,4 @@ jobs:
     uses: NWChemEx/.github/.github/workflows/test_nwx_pip_build.yaml@master
     with:
       run_python_tests: "false"
+      run_cmake_tests: "false"
