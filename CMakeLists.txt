@@ -1,4 +1,4 @@
-# Copyright 2022 NWChemEx-Project
+# Copyright 2026 NWChemEx-Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,46 +14,31 @@
 
 cmake_minimum_required(VERSION 3.14)
 
-#Downloads common CMake modules used throughout NWChemEx
+# Downloads common CMake modules used throughout NWChemEx. Included before
+# project() so nwx_set_version() is available to compute the version.
 include(cmake/get_nwx_cmake.cmake)
 
-#Sets the version to whatever git thinks it is
-include(get_version_from_git)
-get_version_from_git(utilities_version "${CMAKE_CURRENT_LIST_DIR}")
+# Version from scikit-build-core (wheels/sdists) or the latest git tag.
+include(nwx_set_version)
+nwx_set_version(utilities_version "${CMAKE_CURRENT_LIST_DIR}")
 project(utilities VERSION "${utilities_version}" LANGUAGES CXX)
-set(CMAKE_CXX_STANDARD 20)
 
-include(get_cmaize)
+include(disable_in_source_builds)
+include(set_default_nwx_options)
+
+# Define the documentation target
 include(nwx_cxx_api_docs)
+nwx_cxx_api_docs("cxx/include" "cxx/src")
 
-### Paths ###
-set(UTILITIES_INCLUDE_DIR "${CMAKE_CURRENT_LIST_DIR}/include")
-set(UTILITIES_SOURCE_DIR "${CMAKE_CURRENT_LIST_DIR}/src")
+# Build the library
+include(nwx_library)
+nwx_library(${PROJECT_NAME} "cxx/include" "cxx/src")
 
-nwx_cxx_api_docs("${UTILITIES_SOURCE_DIR}" "${UTILITIES_INCLUDE_DIR}")
-
-### Options ###
-cmaize_option_list(
-    BUILD_TESTING OFF "Should we build the tests?"
-)
-
-cmaize_add_library(
+# Register the C++ tests
+include(catch2_tests_from_dir)
+catch2_tests_from_dir(
+    "unit_test_${PROJECT_NAME}"
+    "tests/cxx/unit_tests"
     ${PROJECT_NAME}
-    SOURCE_DIR "${UTILITIES_SOURCE_DIR}/${PROJECT_NAME}"
-    INCLUDE_DIRS "${UTILITIES_INCLUDE_DIR}/${PROJECT_NAME}"
+    PRIVATE_INCLUDES cxx/src
 )
-
-if("${BUILD_TESTING}")
-    set(UTILITIES_TEST_DIR "${CMAKE_CURRENT_LIST_DIR}/tests/unit_tests")
-
-    include(get_catch2)
-
-    cmaize_add_tests(
-        test_unit_${PROJECT_NAME}
-        SOURCE_DIR "${UTILITIES_TEST_DIR}"
-        INCLUDE_DIRS "${UTILITIES_SOURCE_DIR}/${PROJECT_NAME}"
-        DEPENDS Catch2 ${PROJECT_NAME}
-    )
-endif()
-
-cmaize_add_package(${PROJECT_NAME} NAMESPACE nwx::)

@@ -46,3 +46,9 @@ install/
 
 # Users commonly store their specific CMake settings in a toolchain file
 toolchain.cmake
+
+# These are MacOS files
+.DS_Store
+
+# Automatically installed in dev mode
+.pre-commit-config.yaml
