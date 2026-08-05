@@ -16,7 +16,6 @@
 requires = [
     "scikit-build-core>=0.10",
     "setuptools-scm>=8",
-    "nwchemex-nwxcmake @ git+https://github.com/ryanmrichard/NWXCMake",
 ]
 build-backend = "scikit_build_core.build"
 
@@ -26,6 +25,9 @@ dynamic = ["version"]
 description = "General-purpose C++ utilities for the NWChemEx ecosystem"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.8"
+dependencies = [
+    "nwchemex-nwxcmake @ git+https://github.com/ryanmrichard/NWXCMake",
+]
 
 [project.optional-dependencies]
 dev = ["pre-commit"]
