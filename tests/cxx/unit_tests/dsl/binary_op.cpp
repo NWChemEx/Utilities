@@ -95,8 +95,11 @@ TEMPLATE_LIST_TEST_CASE("BinaryOp", "", test_utilities::binary_types) {
         }
 
         SECTION("Different values") {
-            lhs_type lhs2;
-            rhs_type rhs2;
+            // Value-initialize: default-init leaves scalars (e.g. double,
+            // int) uninitialized, so lhs2/rhs2 could coincidentally compare
+            // equal to lhs/rhs depending on leftover stack contents.
+            lhs_type lhs2{};
+            rhs_type rhs2{};
             utilities::dsl::Add<lhs_type, rhs_type> add_l(lhs2, rhs);
             utilities::dsl::Add<lhs_type, rhs_type> add_r(lhs, rhs2);
             REQUIRE_FALSE(a_xx == add_l);
@@ -114,7 +117,7 @@ TEMPLATE_LIST_TEST_CASE("BinaryOp", "", test_utilities::binary_types) {
 
     SECTION("operator!=") {
         // Just negates operator== so spot check
-        lhs_type lhs2;
+        lhs_type lhs2{};
         utilities::dsl::Add<lhs_type, rhs_type> add_r(lhs2, rhs);
         REQUIRE_FALSE(a_xx != a_cx);
         REQUIRE(a_xx != add_r);
