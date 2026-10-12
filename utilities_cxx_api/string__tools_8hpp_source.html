@@ -163,7 +163,15 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    <span class="keywordflow">return</span> str;</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>}</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>} <span class="comment">// namespace utilities::strings</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> case_insensitive_equal(<span class="keyword">const</span> std::string&amp; lhs,</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>                                   <span class="keyword">const</span> std::string&amp; rhs) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end(),</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>                      [](<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> l, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> r) {</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>                          return std::tolower(l) == std::tolower(r);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>                      });</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>}</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>} <span class="comment">// namespace utilities::strings</span></div>
 <div class="ttc" id="anamespaceutilities_html"><div class="ttname"><a href="namespaceutilities.html">utilities</a></div><div class="ttdoc">Namespace for all functionality in the Utilities library.</div><div class="ttdef"><b>Definition</b> case_insensitive_map.hpp:23</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
