@@ -136,3 +136,22 @@ TEST_CASE("toupper_string") {
                 "THIS IS A FULL SENTENCE! (WITH A SIDE NOTE)");
     }
 }
+
+TEST_CASE("case_insensitive_equal") {
+    SECTION("Empty strings") { REQUIRE(case_insensitive_equal("", "")); }
+    SECTION("Same case") { REQUIRE(case_insensitive_equal("Hello", "Hello")); }
+    SECTION("Different case") {
+        REQUIRE(case_insensitive_equal("Hello", "hELLO"));
+    }
+    SECTION("Special symbols") {
+        REQUIRE(case_insensitive_equal("a-b_c!", "A-B_C!"));
+        REQUIRE_FALSE(case_insensitive_equal("a-b", "a_b"));
+    }
+    SECTION("Different lengths") {
+        REQUIRE_FALSE(case_insensitive_equal("Hello", "Hello!"));
+        REQUIRE_FALSE(case_insensitive_equal("", "a"));
+    }
+    SECTION("Different strings") {
+        REQUIRE_FALSE(case_insensitive_equal("Hello", "World"));
+    }
+}

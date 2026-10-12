@@ -168,4 +168,26 @@ inline std::string toupper_string(std::string str) {
     return str;
 }
 
+/** @brief Compares two strings, ignoring case.
+ *
+ *  Two strings are equal if they have the same length and each pair of
+ *  characters is equal after lowercasing. This is the equality that
+ *  CaseInsensitiveMap uses for its keys.
+ *
+ *  @param[in] lhs The first string to compare.
+ *  @param[in] rhs The second string to compare.
+ *
+ *  @return True if @p lhs and @p rhs are equal, ignoring case, and false
+ *          otherwise.
+ *
+ *  @throw None No throw guarantee.
+ */
+inline bool case_insensitive_equal(const std::string& lhs,
+                                   const std::string& rhs) noexcept {
+    return std::equal(lhs.begin(), lhs.end(), rhs.begin(), rhs.end(),
+                      [](unsigned char l, unsigned char r) {
+                          return std::tolower(l) == std::tolower(r);
+                      });
+}
+
 } // namespace utilities::strings
